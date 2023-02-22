@@ -1,9 +1,12 @@
-import { Routes } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
+import { Layout } from './components/Layout/Layout';
 
 export const App = () => {
   return (
     <>
-      <Routes></Routes>
+      <Routes>
+        <Route path='/' element={<Layout />} />
+      </Routes>
     </>
   );
 };
