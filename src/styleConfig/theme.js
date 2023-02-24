@@ -5,6 +5,7 @@ export const theme = {
     primary: '#E5E5E5',
     secondary: '#171A1D',
     accent: '#F88500',
+    logoText: '#59606C',
   },
   fonts: {
     primary: 'Raleway, sans serif',
@@ -27,6 +28,8 @@ export const theme = {
     extraBold: 800,
   },
   lineHeights: {
-    body: 1.5715,
+    logo: 1.1764,
+    title: 1.1666,
+    link: 1.1428,
   },
 };

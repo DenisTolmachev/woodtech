@@ -19,9 +19,7 @@ export const GlobalStyle = createGlobalStyle`
   body {
     position: relative;
     margin: 0;
-    font-family: -apple-system, BlinkMacSystemFont, 'Poppins', 'Circe', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+    font-family: 'Raleway', sans-serif;
     color: #000;
   }
 
@@ -29,6 +27,7 @@ export const GlobalStyle = createGlobalStyle`
   ul {
     list-style: none;
     padding: 0;
+    margin: 0;
 
   }
 
