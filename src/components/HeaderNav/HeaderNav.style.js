@@ -18,7 +18,8 @@ export const NavigationLink = styled(NavLink)`
   border-radius: 0 5px;
 
   &:hover,
-  &:focus {
+  &:focus,
+  &:active {
     color: ${({ theme }) => theme.colors.white};
     background-color: ${({ theme }) => theme.colors.accent};
   }

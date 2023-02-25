@@ -9,8 +9,8 @@ import logoIcon from '../img/logo.svg';
 
 export const Logo = () => {
   return (
-    <LogoContainer>
-      <LogoIcon src={logoIcon} alt='wallet-icon' />
+    <LogoContainer to={'/'}>
+      <LogoIcon src={logoIcon} alt='logo-icon' />
       <LogoTextContainer>
         <LogoTitle>Woodtech</LogoTitle>
         <LogoText>Architecture</LogoText>
