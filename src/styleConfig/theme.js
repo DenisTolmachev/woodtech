@@ -6,6 +6,7 @@ export const theme = {
     secondary: '#171A1D',
     accent: '#F88500',
     logoText: '#59606C',
+    primatyText: '#ffffff70',
   },
   fonts: {
     primary: 'Raleway, sans serif',

@@ -29,3 +29,4 @@ export const LogoText = styled.div`
   line-height: ${({ theme }) => theme.lineHeights.title};
   letter-spacing: 0.23em;
 `;
+
