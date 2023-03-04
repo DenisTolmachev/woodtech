@@ -11,6 +11,6 @@ export const FooterAboutTitle = styled.h2`
 `;
 
 export const FooterAboutText = styled.p`
-  color: ${({ theme }) => theme.colors.primatyText};
+  color: ${({ theme }) => theme.colors.primaryText};
   margin-top: 12px;
 `;

@@ -6,7 +6,7 @@ import { HeaderSocial } from '../HeaderSocial/HeaderSocial';
 export const Header = () => {
   return (
     <Container>
-      <Logo />
+      <Logo headerStyle={true} />
       <HeaderNav />
       <HeaderSocial />
     </Container>
