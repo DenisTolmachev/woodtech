@@ -6,8 +6,8 @@ import { HeaderSocialList } from '../SocialLists/HeaderSocialList/HeaderSocialLi
 export const Header = () => {
   return (
     <Container>
-      <Logo headerStyle={true} />
-      <Navigation headerStyle={true} />
+      <Logo headerstyle='true' />
+      <Navigation headerstyle='true' />
       <HeaderSocialList />
     </Container>
   );

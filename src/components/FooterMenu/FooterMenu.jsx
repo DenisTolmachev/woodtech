@@ -5,7 +5,7 @@ export const FooterMenu = () => {
   return (
     <FooterMenuContainer>
       <FooterMenuTitle>Меню</FooterMenuTitle>
-      <Navigation footerStyle={true} />
+      <Navigation footerstyle='true' />
     </FooterMenuContainer>
   );
 };

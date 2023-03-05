@@ -4,9 +4,9 @@ import {
   ServicesMenuList,
 } from './ServicesMenu.style';
 
-export const ServicesMenu = ({ headerStyle, footerStyle }) => {
+export const ServicesMenu = () => {
   return (
-    <ServicesMenuList headerStyle={headerStyle} footerStyle={footerStyle}>
+    <ServicesMenuList>
       <ServicesMenuItem>
         <ServicesMenuLink to={'/'}>Дизайн інтер'єру</ServicesMenuLink>
       </ServicesMenuItem>

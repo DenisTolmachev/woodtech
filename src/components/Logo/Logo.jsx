@@ -6,12 +6,12 @@ import {
   LogoTitle,
 } from './Logo.style';
 
-export const Logo = ({ headerStyle, footerStyle }) => {
+export const Logo = ({ headerstyle, footerstyle }) => {
   return (
     <LogoContainer to={'/'}>
       <LogoIcon
-        headerStyle={headerStyle}
-        footerStyle={footerStyle}
+        headerstyle={headerstyle}
+        footerstyle={footerstyle}
         width='15'
         height='16'
         viewBox='0 0 15 16'
@@ -25,7 +25,7 @@ export const Logo = ({ headerStyle, footerStyle }) => {
       </LogoIcon>
 
       <LogoTextContainer>
-        <LogoTitle headerStyle={headerStyle} footerStyle={footerStyle}>
+        <LogoTitle headerstyle={headerstyle} footerstyle={footerstyle}>
           Woodtech
         </LogoTitle>
         <LogoText>Architecture</LogoText>

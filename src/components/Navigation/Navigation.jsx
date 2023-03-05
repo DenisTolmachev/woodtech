@@ -1,12 +1,12 @@
 import { NavigationLink, NavItem, NavList } from './Navigation.style';
 
-export const Navigation = ({ headerStyle, footerStyle }) => {
+export const Navigation = ({ headerstyle, footerstyle }) => {
   return (
-    <NavList headerStyle={headerStyle} footerStyle={footerStyle}>
+    <NavList headerstyle={headerstyle} footerstyle={footerstyle}>
       <NavItem>
         <NavigationLink
-          headerStyle={headerStyle}
-          footerStyle={footerStyle}
+          headerstyle={headerstyle}
+          footerstyle={footerstyle}
           to={'/'}
         >
           Головна
@@ -14,8 +14,8 @@ export const Navigation = ({ headerStyle, footerStyle }) => {
       </NavItem>
       <NavItem>
         <NavigationLink
-          headerStyle={headerStyle}
-          footerStyle={footerStyle}
+          headerstyle={headerstyle}
+          footerstyle={footerstyle}
           to={'/projects'}
         >
           Проєкти
@@ -23,8 +23,8 @@ export const Navigation = ({ headerStyle, footerStyle }) => {
       </NavItem>
       <NavItem>
         <NavigationLink
-          headerStyle={headerStyle}
-          footerStyle={footerStyle}
+          headerstyle={headerstyle}
+          footerstyle={footerstyle}
           to={'/services'}
         >
           Послуги
@@ -32,8 +32,8 @@ export const Navigation = ({ headerStyle, footerStyle }) => {
       </NavItem>
       <NavItem>
         <NavigationLink
-          headerStyle={headerStyle}
-          footerStyle={footerStyle}
+          headerstyle={headerstyle}
+          footerstyle={footerstyle}
           to={'/blog'}
         >
           Блог
@@ -41,8 +41,8 @@ export const Navigation = ({ headerStyle, footerStyle }) => {
       </NavItem>
       <NavItem>
         <NavigationLink
-          headerStyle={headerStyle}
-          footerStyle={footerStyle}
+          headerstyle={headerstyle}
+          footerstyle={footerstyle}
           to={'/company'}
         >
           Компанія

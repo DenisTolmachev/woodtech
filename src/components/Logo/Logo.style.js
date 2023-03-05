@@ -9,12 +9,12 @@ export const LogoIcon = styled.svg`
   width: 15px;
   height: 15px;
   ${props =>
-    props.headerStyle &&
+    props.headerstyle &&
     css`
       fill: ${({ theme }) => theme.colors.accent};
     `}
   ${props =>
-    props.footerStyle &&
+    props.footerstyle &&
     css`
       fill: ${({ theme }) => theme.colors.primaryText};
     `}
@@ -31,12 +31,12 @@ export const LogoTitle = styled.div`
   text-transform: uppercase;
   line-height: ${({ theme }) => theme.lineHeights.logo};
   ${props =>
-    props.headerStyle &&
+    props.headerstyle &&
     css`
       color: ${({ theme }) => theme.colors.black};
     `}
   ${props =>
-    props.footerStyle &&
+    props.footerstyle &&
     css`
       color: ${({ theme }) => theme.colors.primaryText};
       font-weight: ${({ theme }) => theme.fontWeights.extraBold};

@@ -4,12 +4,12 @@ import { NavLink } from 'react-router-dom';
 export const NavList = styled.ul`
   display: flex;
   ${props =>
-    props.headerStyle &&
+    props.headerstyle &&
     css`
       gap: 27px;
     `}
   ${props =>
-    props.footerStyle &&
+    props.footerstyle &&
     css`
       flex-direction: column;
       gap: 15px;
@@ -24,7 +24,7 @@ export const NavigationLink = styled(NavLink)`
   line-height: ${({ theme }) => theme.lineHeights.link};
 
   ${props =>
-    props.headerStyle &&
+    props.headerstyle &&
     css`
       color: ${({ theme }) => theme.colors.black};
       background-color: ${({ theme }) => theme.colors.white};
@@ -32,7 +32,7 @@ export const NavigationLink = styled(NavLink)`
       border-radius: 0 5px;
     `}
   ${props =>
-    props.footerStyle &&
+    props.footerstyle &&
     css`
       color: ${({ theme }) => theme.colors.primaryText};
     `}
@@ -40,13 +40,13 @@ export const NavigationLink = styled(NavLink)`
   &:focus,
   &:active {
     ${props =>
-      props.headerStyle &&
+      props.headerstyle &&
       css`
         color: ${({ theme }) => theme.colors.white};
         background-color: ${({ theme }) => theme.colors.accent};
       `}
     ${props =>
-      props.footerStyle &&
+      props.footerstyle &&
       css`
         color: ${({ theme }) => theme.colors.accent};
       `}
