@@ -1,7 +1,14 @@
+import {
+  FooterServicesContainer,
+  FooterServicesTitle,
+} from './FooterServices.style';
+import { ServicesMenu } from '../ServicesMenu/ServicesMenu';
+
 export const FooterServices = () => {
   return (
-    <div>
-      FooterServices
-    </div>
+    <FooterServicesContainer>
+      <FooterServicesTitle>Послуги</FooterServicesTitle>
+      <ServicesMenu />
+    </FooterServicesContainer>
   );
 };
