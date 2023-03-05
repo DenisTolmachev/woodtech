@@ -1,4 +1,4 @@
-import { NavigationLink, NavItem, NavList } from './HeaderNav.style';
+import { NavigationLink, NavItem, NavList } from './Navigation.style';
 
 export const Navigation = ({ headerStyle, footerStyle }) => {
   return (
