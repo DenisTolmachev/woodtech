@@ -32,5 +32,6 @@ export const theme = {
     logo: 1.1764,
     title: 1.1666,
     link: 1.1428,
+    nav: 1.6875,
   },
 };

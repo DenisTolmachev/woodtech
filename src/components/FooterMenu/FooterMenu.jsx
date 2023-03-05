@@ -1,10 +1,11 @@
-import { FooterMenuContainer } from './FooterMenu.style';
-import { HeaderNav } from '../HeaderNav/HeaderNav';
+import { FooterMenuContainer, FooterMenuTitle } from './FooterMenu.style';
+import { Navigation } from '../Navigation/Navigation';
 
 export const FooterMenu = () => {
   return (
     <FooterMenuContainer>
-      <HeaderNav />
+      <FooterMenuTitle>Меню</FooterMenuTitle>
+      <Navigation footerStyle={true} />
     </FooterMenuContainer>
   );
 };

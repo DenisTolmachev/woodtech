@@ -12,5 +12,8 @@ export const FooterAboutTitle = styled.h2`
 
 export const FooterAboutText = styled.p`
   color: ${({ theme }) => theme.colors.primaryText};
+  font-size: ${({ theme }) => theme.fontSizes.xs};
+  font-weight: ${({ theme }) => theme.fontWeights.regular};
+  line-height: ${({ theme }) => theme.lineHeights.nav};
   margin-top: 12px;
 `;
