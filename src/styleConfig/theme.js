@@ -7,6 +7,7 @@ export const theme = {
     accent: '#F88500',
     logoText: '#59606C',
     primaryText: '#ffffff70',
+    socialIcons: 'rgba(111, 122, 139, 0.75)',
   },
   fonts: {
     primary: 'Raleway, sans serif',
