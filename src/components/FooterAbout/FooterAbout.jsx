@@ -8,7 +8,7 @@ import { Logo } from '../Logo/Logo';
 export const FooterAbout = () => {
   return (
     <FooterAboutContainer>
-      <Logo />
+      <Logo footerStyle={true} />
       <FooterAboutTitle>Коротко про нас</FooterAboutTitle>
       <FooterAboutText>
         Ми досконально опрацьовуємо, а потім обговорюємо з нашими клієнтами
